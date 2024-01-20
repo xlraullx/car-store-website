@@ -42,10 +42,28 @@ li a:active {
     background-color: #880000;
 }
 
+.container {
+    position: relative;
+    left: 250px;
+    height: 2000px;
+    width: 1000px;
+    background-color: rgb(214, 212, 212);
+
+}
+
 .carro-esportivo {
+    position: absolute;
     box-sizing: border-box;
     width:275.25px;
     padding: 0px;
     margin: 30px 30px;
     border:solid 10px red
+}
+
+.c2-r1 {
+    left: 330px;
+}
+
+.c3-r1 {
+    right: 0;
 }
